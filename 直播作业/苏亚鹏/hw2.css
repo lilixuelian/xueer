@@ -1,0 +1,30 @@
+.d1{
+    display: flex;
+}
+.a1{
+    display: flex;
+    align-content: center;
+    width: 170px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.circle{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    margin-left: 25px;
+    border: 2px solid lightgreen;
+}
+.text{
+    font-size: 200%;
+    color: lightgreen;
+    margin-left: 33%;
+}
+.gray{
+    color:gray;
+}
+.border{
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: grey;
+}
