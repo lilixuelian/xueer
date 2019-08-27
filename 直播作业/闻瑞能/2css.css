@@ -1,0 +1,18 @@
+.caption{
+    font-size: 32px;
+    color: green;
+    border:1px solid green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+}
+.grey{
+    font-size: 12px;
+    color: grey;
+}
+.box{width: 200px;
+    display: inline-block}
+.border{border-right: 1px solid gray}
