@@ -10,7 +10,10 @@ function inverse(s) {
   }
   return arr.join('');
 }
-输出：
+1、输出：
+
+
+
 function repeat(str, num) {
   if(num<=0)
       return "";
@@ -20,7 +23,11 @@ function repeat(str, num) {
   return str;
 }
 repeat("abc", 3);
-输出：
+2、输出：
+
+
+
+
 function factorialize(num) {
   if (num < 0) { 
         return -1; 
@@ -31,7 +38,11 @@ function factorialize(num) {
     } 
 }
 factorialize(5);
-输出：
+3、输出：
+
+
+
+
 function bubbleSort(arr){
       for(var i=0;i<arr.length-1;i++){
           for(var j=0;j<arr.length-i-1;j++){
@@ -45,7 +56,11 @@ function bubbleSort(arr){
       return arr;
   }
  console.log(bubbleSort([6,1,2,4,3,5]))
-输出：
+4、输出：
+
+
+
+
 var arr1 = [1,2,3,44,44,11,2,3,333,3,3];
     function removeRepeat(arr){
         var removeArr = [],obj = {};
@@ -59,4 +74,4 @@ var arr1 = [1,2,3,44,44,11,2,3,333,3,3];
     }
     var singleArr = removeRepeat(arr1);
 console.log(singleArr);
-输出：
+5、输出：
