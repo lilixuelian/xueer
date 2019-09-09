@@ -1,0 +1,193 @@
+/* 整体开始 */
+body{
+    background: #F4F4F4;
+} 
+*{
+    margin: 0;
+}
+/* 整体结束 */
+/* 顶部导航栏开始 */
+.header{
+    height: 80px;
+    background: #FFFFFF;
+    margin-bottom: 4px;
+}
+.header-center{
+    background: #FFFFFF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-photo{
+    height: 35px;
+    width: 86px;
+    margin-right: 21px;
+    margin-left: 5px
+}
+.study{
+    font: 22px PingFangSC;
+    color: #1DC091;
+    height: 35px;
+    float: right;
+    line-height: 35px;  
+}
+.header-con{
+    height: 80px;
+}
+.header-con div{
+    font: 20px PingFangSC;
+    padding-top: 5px;
+    height: 80px;
+    line-height: 75px;
+    margin: 0 35px;
+    display: inline-block;
+}
+.header-con div:hover{
+    color:#F44336;
+    border-top: 5px solid #F44336;
+    padding-top: 0;
+    cursor: pointer;
+}
+.search{
+    width: 330px;
+    height: 30px;
+    border: 2px solid #F44336;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search img{
+    float: right;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+}
+.people-photo{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.back{
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #1DC091;
+    margin-left: 40px;
+    background: #1DC091;
+    color: white;
+}
+.muxilogo{
+    float: left;
+    height: 25px;
+    width: 25px;
+    transition: all 2s ease;
+}
+.muxilogo:hover{
+    -webkit-transform: rotateY(360deg);
+    transform: scale(2,2) rotate(360deg);
+}
+/* 顶部导航栏结束 */
+
+/* 海报开始 */
+.container{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 300px;
+    border: 2px solid black;
+    background: -webkit-linear-gradient(rgb(255, 208, 0), rgba(255,0,0,0)); 
+    background: -o-linear-gradient( rgb(255, 208, 0), rgba(255,0,0,0)); 
+    background: -moz-linear-gradient( rgb(255, 208, 0), rgba(255,0,0,0)); 
+    background: linear-gradient( rgb(255, 208, 0), rgba(255,0,0,0)rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.center-table{
+    display: table;
+    height: 180px;
+    margin: 10px auto;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+    background: black;
+    font-size: 14px;
+    border: 2px solid black;
+}
+
+.center-table:hover{
+    background: white;
+    border: 2px dotted black;
+    color: black;
+}
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 180px;
+    margin: 0 auto;
+}
+.slogan{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px; 
+}
+#muxi{
+    font-size: 32px;
+}
+/* 海报结束 */
+
+
+/* 文字开始 */
+.words-box{
+    width: 800px;
+    height: 1000px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.words{
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    margin: 20px;
+    text-indent:2em;
+    margin-top: 30px;
+}
+/* 文字结束 */
+
+/* 二维码框架开始 */
+.add{
+    position: fixed;
+    left: 150px;
+    top: 150px;
+}
+.code{
+    width: 100px;
+    height: 100px;
+}
+.join{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+/* 二维码框架结束 */
+
+/* 沙雕图开始 */
+@keyframes mymove
+{
+    from {left:200px;}
+    to {left:800px;}
+}
+@-webkit-keyframes mymove 
+{
+    from {left:200px;}
+    to {left:800px;}
+}
+.new img{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    animation:mymove 5s infinite;
+    -webkit-animation:mymove 5s infinite;
+}
+/* 沙雕图结束 */
